@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tareas en local</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Lista de Tareas</h1>
+      <form id="task-form">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="task-input"
+            placeholder="Nueva tarea"
+          />
+          <button class="btn btn-primary" type="submit">Añadir</button>
+        </div>
+      </form>
+      <ul class="list-group" id="task-list">
+        <!-- Las tareas irán aquí -->
+      </ul>
+    </div>
+    <script src="./bootstrap.min.js"></script>
+  </body>
+</html>
